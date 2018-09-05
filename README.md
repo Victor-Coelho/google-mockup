@@ -1,0 +1,1 @@
+This project is part of the introductory webdev course from The Odin Project. The assignment is to create a mockup version of the google homepage.
