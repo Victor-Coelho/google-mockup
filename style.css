@@ -18,6 +18,9 @@ body {
 	position: relative;
 	top: 12px;
 }
+.spacing {
+	padding-left: 10px;
+}
 .logo {
 	display: block;
 	margin-top: 180px;
@@ -60,5 +63,34 @@ body {
 	border-radius: 2px;
 	padding: 12px;
 	background-color: rgb(236, 236, 236);
-
+}
+.buttons-style:hover {
+	color: #222;
+	background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+	border: 1px solid #c6c6c6;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+.bottom-bar {
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	border: 1px solid #ccc;
+	background-color: rgb(221, 221, 221);
+	left: 0px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	
+}
+.bottom-links {
+	padding-left: 20px;
+	color:rgb(105, 105, 105);
+	text-decoration: none;
+	font-size: 13px;
+}
+.bottom-links:hover {
+	text-decoration: underline;
+}
+.right-side {
+	float: right;
+	padding-right: 20px;
 }
